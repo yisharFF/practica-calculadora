@@ -3,7 +3,7 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const { operar } = require("./calculadora.js");
 
-test("suma", () => assert.equal(operar(2, 3, "sumar"), 99));
+test("suma", () => assert.equal(operar(2, 3, "sumar"), 5));
 
 test("resta", () => assert.equal(operar(9, 4, "restar"), 5));
 
